@@ -47,7 +47,7 @@ try:
 		
 
 	banner()
-	site=raw_input(random.choice(colour)+"Enter Url:"+normal)
+	site=raw_input(random.choice(colour)+"Enter Url without www. [eg: google.com]:"+normal)
 	sub_find(site)
 except KeyboardInterrupt:
 	os.system('clear')
