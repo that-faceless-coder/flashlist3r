@@ -29,7 +29,6 @@ try:
 		top()
 	#find subdomins
 	def sub_find(site):
-		result = set()
 		print(random.choice(colour)+"[*] Subdomain Scan Started\n"+normal)
 		response = requests.get('https://findsubdomains.com/subdomains-of/' + site).text
 		sub = findall(r'(?s)<div class="domains js-domain-name">(.*?)</div>', response)
