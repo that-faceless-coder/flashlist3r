@@ -1,6 +1,6 @@
 # thatfacelesscoder
 
-Flashlist3r is a python program that enumerates subdomains of any given domain.This program gives you access to over 100+ subdomains depending on the domain you are enumerating.Its recommend for Pentesters, Security Researchers and Bug Hunters
+Flashlist3r is a python2 based program that enumerates subdomains of any given domain.This program gives you access to over 100+ subdomains depending on the domain you are enumerating.Its recommend for Pentesters, Security Researchers and Bug Hunters
 
 git clone https://github.com/that-faceless-coder/flashlist3r.git
 
