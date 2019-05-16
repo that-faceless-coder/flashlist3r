@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.x
 import os,sys,random,requests
 from re import findall
 from requests.exceptions import ConnectionError
