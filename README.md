@@ -12,7 +12,7 @@ python flashlist3r.py
 
 Enter url: google.com
 
-Note: input command:google.com and not www.google.com
+Note: input command:facebook.com and not "www.facebook.com"
 
 Feel free to modify the program to your own preference
 
