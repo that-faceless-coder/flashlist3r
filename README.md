@@ -10,7 +10,7 @@ chmod +x flashlist3r.py
 
 python flashlist3r.py
 
-Enter url: google.com
+Enter url: facebook.com
 
 Note: input command:facebook.com and not "www.facebook.com"
 
