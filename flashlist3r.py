@@ -15,18 +15,18 @@ try:
 	def topspace():
 		for x in range(2):
 			print('#'+' '*69+'#')
-	
+
 	def msg():
 		print('#'+' '*15+random.choice(colour)+'Flashlist3r for researchers,pentesters'+normal+' '*15+' #')
 		print('#'+' '*22+random.choice(colour)+'IG: @that_faceless_coder'+normal+' '*23+'#')
-		print('#'+' '*26+random.choice(colour)+'Flashlist3r v0.9'+normal+' '*27+'#')
-		
+		print('#'+' '*26+random.choice(colour)+'Flashlist3r v1.0'+normal+' '*27+'#')
+
 	#banner
 	def banner():
 		top()
 		topspace()
 		msg()
-		topspace()	
+		topspace()
 		top()
 	#find subdomins
 	def sub_find(site):
@@ -40,15 +40,15 @@ try:
 			subdomain=''.join(subdom)
 			subdomain[1:-1]
 			print (str((i+1))+' '+subdomain)
-			fiLe=open('output.txt','a')
+			fiLe=open(f+'.txt','a')
 			fiLe.write(subdomain+'\n')
 			fiLe.close()
-		print(random.choice(colour)+'[+] Data has be saved to /flashlist3r/output.txt'+normal)
-		
-		
+		print(random.choice(colour)+'[+] Data has be saved to /flashlist3r/'+f+'.txt'+normal)
+
 
 	banner()
 	site=raw_input(random.choice(colour)+"Enter Url without www. [eg: google.com]:"+normal)
+	f = site[:-4]
 	sub_find(site)
 except KeyboardInterrupt:
 	os.system('clear')
@@ -56,5 +56,3 @@ except KeyboardInterrupt:
 
 except ConnectionError as e:
 	print('Please check your internet connection...')
-
-
