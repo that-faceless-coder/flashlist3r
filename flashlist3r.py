@@ -43,7 +43,7 @@ try:
 			fiLe=open(f+'.txt','a')
 			fiLe.write(subdomain+'\n')
 			fiLe.close()
-		print(random.choice(colour)+'[+] Data has be saved to /flashlist3r/'+f+'.txt'+normal)
+		print(random.choice(colour)+'[+] Data has be saved to /flashlist3r/'+f+'.txt\n'+normal)
 
 
 	banner()
