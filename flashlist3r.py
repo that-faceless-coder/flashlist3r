@@ -39,7 +39,7 @@ try:
 			subdom=map(str.strip,subdo)
 			subdomain=''.join(subdom)
 			subdomain[1:-1]
-			print (str((i+1))+' '+subdomain)
+			print ('['+str((i+1))+']'+' '+subdomain)
 			fiLe=open(f+'.txt','a')
 			fiLe.write(subdomain+'\n')
 			fiLe.close()
